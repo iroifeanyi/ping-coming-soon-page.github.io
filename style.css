@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.bg-color{
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    width: 200px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    height: 145vh;
+}
+.main-box{
+    width: 780px;
+}
+.flex{
+    display: flex;
+}
+.color{
+    color: hsl(0, 0%, 59%);
+}
+.mg-bottom{
+    margin-bottom: 20px;
+}
+.header-text{
+    font-size: 50px;
+    font-weight: 100;
+}
+.last-text{
+    font-size: 22px;
+}
+.align{
+    text-align: center;
+}
+.mg-top{
+    margin-top:50px;
+}
+.mg-left{
+    margin-left: 350px;
+}
+.bold-text{
+    color: black;
+    font-weight: 900;
+}
+.pad{
+    padding: 20px 0px 20px 0px;
+}
+.pad-{
+    padding: 20px 0px 20px 30px;
+}
+.input-box{
+    width: 390px;
+    border: 1px solid hsla(0, 0%, 46%, 0.925);
+}
+.font{
+    font-size: 18px;
+    color: white;
+}
+::placeholder{
+    font-size: 18px;
+    color: hsla(0, 0%, 59%, 0.658)
+}
+.bd-radius{
+    border-radius: 30px;
+}
+.input-botton{
+    gap: 15px;
+    margin-left: 80px;
+}
+img{
+    width: 100%;
+}
+.image-{
+    width: 82%;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+.icon{
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+.icon-one{
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    padding: 10px 10px 10px 15px;
+    border-radius: 30px;}
+.icon-box{
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+@media screen and (max-width: 790px){
+    .mg-left{
+        margin-left: 270px;
+    }
+    .input-botton{
+        gap: 15px;
+        margin-left: 10px;
+    }
+    .main-box{
+        width: 630px;
+    }
+    .icon-box{
+        margin-left: 210px;
+    }
+}
+@media screen and (max-width: 663px){
+    .main-box{
+        width: 380px;
+    }
+    .input-botton{
+        flex-direction: column;
+    }
+    .mg-left{
+        margin-left: 150px;
+    }
+    .header-text{
+        font-size: 32px;
+        font-weight: 100;
+    }
+    .last-text{
+        font-size: 18px;
+    }
+    .input-box{
+        width: 340px;
+        border: 1px solid hsla(0, 0%, 46%, 0.575);
+    }
+    .bg-color{
+        width: 340px;
+        margin-right: 10px;
+    }
+    .image-{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .icon-box{
+        gap: 40px;
+        font-size: 18px;
+        margin-left: 90px;
+    }
+}
